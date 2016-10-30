@@ -5,3 +5,10 @@
 Please note: Theos has undergone a number of changes recently. To learn more, visit [**the wiki**](https://github.com/theos/theos/wiki).
 
 See [LICENSE.md](LICENSE.md) for licensing information.
+
+## If you encounter error regarding PrivateFramework, create ```~/.theosrc``` with this content
+
+```
+SDKVERSION = 9.3
+SYSROOT = $(THEOS)/sdks/iPhoneOS9.3.sdk
+```
